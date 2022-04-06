@@ -17,20 +17,33 @@
   <input type="text" name="" id="" placeholder="cat photo URL" />
   <form action="/submit-cat-photo">
     <input type="text" name="" id="" required />
-    <!--komentar -->
+    <!--Kada submitujemo bez unosa teksta u polje dobijamo poruku "Please fill out this field". -->
     <button type="submit">Submit</button>
-    <!--radio button -->
-<label>
-    <input type="radio" id="age1" name="age" value="30">
-</label>
-
-<label>
-    <input type="radio" id="age1" name="age" value="30">
-</label>
-    <!--radio button-->
-<label>
-    
-</label>
   </form>
+ <div>
+     <label for="inside">
+         <input type="radio" name="inside-outside" value="inside" id="">Inside
+     </label>
+      <label for="outside">
+         <input type="radio" name="inside-outside" value="outside" id="">Outside
+     </label>
+  </div>
+  <div>
+      <label for="checkbox">
+          <input type="checkbox" name="Dog" value="Dog" id="">Dog
+      </label>
+       <label for="checkbox">
+          <input type="checkbox" name="Cat" value="Cat" id="">Cat
+      </label>
+       <label for="checkbox">
+          <input type="checkbox" name="Hamster" value="Hamster" id="">Hamster
+      </label>
+       <label for="checkbox">
+          <input type="checkbox" name="Bird" value="Bird" id="">Bird
+      </label>
+       <label for="checkbox">
+          <input type="checkbox" name="Fish" value="Fish" id="">Fish
+      </label>
+  </div>
 </main>
 <footer id="footer"></footer>
