@@ -19,4 +19,4 @@ compareStrictValues("21");
 compareStrictValues(12);
 compareStrictValues("Doe");
 
-module.exporst = compareStrictValues;
+module.exports = compareStrictValues;
